@@ -1,0 +1,18 @@
+let num1 = 8;
+let num2 = 6;
+let isEqual = num1 == num2;
+console.log(`${num1} == ${num2} : ${isEqual}`);
+let isNotEqual = num1 != num2;
+console.log(`${num1} != ${num2} : ${isNotEqual}`);
+let isStrictEqual = num1 === num2;
+console.log(`${num1} === ${num2} : ${isStrictEqual}`);
+let isStrictNotEqual = num1 !== num2;
+console.log(`${num1} !== ${num2} : ${isStrictNotEqual}`);
+let isGreaterThan = num1 > num2;
+console.log(`${num1} > ${num2} : ${isGreaterThan}`);
+let isGreaterThanOrEqual = num1 >= num2;
+console.log(`${num1} >= ${num2} : ${isGreaterThanOrEqual}`);
+let isLessThan = num1 < num2;
+console.log(`${num1} < ${num2} : ${isLessThan}`);
+let isLessThanOrEqual = num1 <= num2;
+console.log(`${num1} <= ${num2} : ${isLessThanOrEqual}`);
